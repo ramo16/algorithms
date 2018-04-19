@@ -1,3 +1,5 @@
+"""gpa calculator in python """
+
 print ("Hello Friend")
 print("This is GPA calculator")
 print("please enter your grades")
