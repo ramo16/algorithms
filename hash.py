@@ -7,9 +7,5 @@ def insert(table,input,value): table[hash_function(input)].append((input,value))
 insert(table,41,'apple')
 insert(table,93,'banana')
 insert(table,1,'apnple')
-
 print table
-
-
-
 print (list(table))
