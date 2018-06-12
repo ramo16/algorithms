@@ -30,12 +30,9 @@ There are  positive numbers,  negative numbers, and  zero in the array.
 The respective fractions of positive numbers, negative numbers and zeroes are ,  and , respectively.
 
 """
-
-
 #!/bin/python
 
 import sys
-
 
 n = int(raw_input().strip())
 arr = map(int,raw_input().strip().split(' '))
