@@ -1,6 +1,4 @@
 """
-
-
 Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
 
 Input Format
@@ -38,16 +36,9 @@ As you can see, the minimal sum is and the maximal sum is . Thus, we print these
 Hints: Beware of integer overflow! Use 64-bit Integer.
 """
 
-
 #!/bin/python
 
 import sys
 
-
 A=list(map(int,input().split(" ")))
 print(sum(A)-max(A),sum(A)-min(A))
-
-
-
-
-
