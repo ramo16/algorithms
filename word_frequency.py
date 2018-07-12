@@ -1,3 +1,4 @@
+"""The most frequent word with no of occurences"""
 import sys
 filename = sys.argv[1]
 
