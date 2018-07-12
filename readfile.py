@@ -16,7 +16,6 @@ for lines in filename:
 		a.extend([c])
 		final=dict(a)
 #print final
-
 for (n,p) in final.items():
 	if p>60:
 		icmp_no=n
